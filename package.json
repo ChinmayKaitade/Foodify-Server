@@ -4,7 +4,9 @@
   "description": "A NodeJS web server that fetches data from a third-party Swiggy API and exposes it to a Client Swiggify App",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "parcel build server.js --target node --out-dir dist"
   },
   "repository": {
     "type": "git",
